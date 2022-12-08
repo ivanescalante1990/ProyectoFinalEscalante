@@ -1,0 +1,39 @@
+.bg__footer{
+    background-color: $color-principal;
+}
+
+.logo__footer{
+    height: $height-logo-footer;
+    border-radius: $border-logo;    
+}
+
+
+$redes:(
+    color--fb:#3b5998,
+    color--twitter: #55acee,
+    color--google: #dd4b39,
+    color--instagram:#ac2bac,
+    color--linkedin: #0082ca,
+    color--github:#333333
+);
+
+
+.facebook--logo{
+    background-color: map-get($redes,color--fb);
+}
+
+.twitter--logo{
+    background-color: map-get($redes, color--twitter);
+} 
+.google--logo{
+    background-color: map-get($redes, color--google);
+}
+.instagram--logo{
+    background-color: map-get($redes, color--instagram);
+}
+.linkedin--logo{
+    background-color: map-get($redes, color--linkedin);
+}
+.github--logo{
+    background-color: map-get($redes, color--github);
+}

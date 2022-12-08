@@ -1,0 +1,12 @@
+.btn__1{
+    text-decoration: underline;
+    letter-spacing: 0.05rem;
+}
+
+.btn__2{
+    @extend.btn__1;
+}
+
+.btn__3{
+    @extend.btn__1
+}

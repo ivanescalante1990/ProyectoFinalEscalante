@@ -1,0 +1,28 @@
+/*Blog*/
+.blog__body {
+    position: relative;
+    z-index: 2; 
+    background-color: $bg-color-blog;
+}
+
+.container__about{
+    position: relative;
+    background-color: $bg-color-blog;
+}
+
+.texto__about{
+    text-align: justify;
+}
+
+
+.album__alfajores{
+    overflow: hidden;
+}
+
+.container__spotify{
+    overflow: hidden;
+}
+
+.album__instagram{
+    overflow: hidden;
+}

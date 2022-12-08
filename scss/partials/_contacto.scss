@@ -1,0 +1,17 @@
+/*Contacto*/
+
+.contacto{
+    position: relative;
+    z-index: 2; /*Para ordenar div - suerponer uno por otro */
+    background-color: white;
+}
+.titulo__contacto{
+    position: relative;
+    text-align: center;
+    
+}
+
+.column {
+    float: left;
+    width: 80%; 
+}
